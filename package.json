@@ -4,6 +4,8 @@
   "description": "Folowing the course of: https://www.youtube.com/watch?v=-bp3q-YTr4Q ",
   "main": "src/index.js",
   "scripts": {
+    "dev-foo": "webpack --mode development --entry ./foo/src/index.js --output-path ./foo/dist",
+    "build-foo": "webpack --mode production --entry ./foo/src/index.js --output-path ./foo/dist",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
