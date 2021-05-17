@@ -4,7 +4,8 @@
   "description": "Folowing the course of: https://www.youtube.com/watch?v=-bp3q-YTr4Q ",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "webpack"
