@@ -6,3 +6,5 @@ const arr = [1, 2, 3],
 console.log("Webpack without configuratio");
 
 codeESNext();
+
+alert("Hola");
