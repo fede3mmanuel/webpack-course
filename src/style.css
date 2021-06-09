@@ -24,6 +24,10 @@ body {
     text-align: center;
 }
 
+a {
+    color: white;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -31,4 +35,10 @@ img {
 
 .icon {
     max-width: 4rem;
+}
+
+.menu {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
 }
